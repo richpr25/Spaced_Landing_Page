@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spaced - Master Everything with Intelligent Repetition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Spaced</h1>
+            <p class="tagline">Master everything with intelligent repetition. The learning app built for your brain.</p>
+            <a href="#features" class="cta-button">Discover How It Works</a>
+            <a href="pricing.html" class="cta-button-primary">Get Spaced Now</a>
+        </div>
+        <div class="knowledge-badges">
+            <div class="knowledge-icon">🧠</div>
+            <div class="knowledge-icon">📚</div>
+            <div class="knowledge-icon">🎓</div>
+            <div class="knowledge-icon">💡</div>
+            <div class="knowledge-icon">🔬</div>
+            <div class="knowledge-icon">🎨</div>
+            <div class="knowledge-icon">📈</div>
+            <div class="knowledge-icon">⚡</div>
+        </div>
+        <div class="scroll-indicator">
+            <div style="color: white; font-size: 2rem;">↓</div>
+        </div>
+    </section>
+
+    <section class="problem-solution">
+        <div class="container">
+            <h2>Tired of Generic Learning Apps?</h2>
+            <div class="comparison">
+                <div class="pain-points">
+                    <h3>The Problem with Quizlet & Anki</h3>
+                    <ul>
+                        <li>Overwhelming features</li>
+                        <li>Too Expensive</li>
+                        <li>Generic spaced repetition</li>
+                        <li>Short Term Focus</li>
+                    </ul>
+                </div>
+                <div class="solution-points">
+                    <h3>The Spaced Solution</h3>
+                    <ul>
+                        <li>Clean, focused interface</li>
+                        <li>Affordable</li>
+                        <li>Content-aware algorithms</li>
+                        <li>Long Term Recall</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <h2>Make Remembering Easy</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🧠</div>
+                <h3>Intelligent Spaced Repetition</h3>
+                <p>Different content types get different review schedules. Vocabulary, artworks, theorems, and capitals each follow scientifically-optimized intervals for maximum retention.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🎯</div>
+                <h3>Content-Aware Learning</h3>
+                <p>Whether you're memorizing art pieces, financial terms, or complex theorems, Spaced adapts its approach to match how your brain best processes each type of information.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3>Distraction-Free Focus</h3>
+                <p>No ads, no social features, no gamification gimmicks. Just you, your content, and proven learning science. Study with complete focus and privacy.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3>Real Progress Tracking</h3>
+                <p>See your actual retention rates, study streaks, and mastery progress. Know exactly which concepts need work and celebrate what you've truly mastered.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🎨</div>
+                <h3>Multiple Learning Modes</h3>
+                <p>Text, images, audio support. Perfect for language learning, art history, geography, or any subject that benefits from visual and auditory memory cues.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">💾</div>
+                <h3>Your Data, Your Control</h3>
+                <p>Everything stays local with automatic backups. No accounts, no cloud dependency, no privacy concerns. Import and export your data anytime.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="demo-section">
+            <h2>See It In Action</h2>
+            <div class="demo-mockup">
+                <div class="demo-content">
+                    <div class="demo-card" id="demoCard">
+                        <!-- Card Background Pattern -->
+                        <div class="card-bg-pattern"></div>
+                        <div class="card-bg-circle-1"></div>
+                        <div class="card-bg-circle-2"></div>
+                        
+                        <!-- Card Header with Badges -->
+                        <div class="card-header">
+                            <div class="card-badges">
+                                <span class="badge badge-deck">Personal Finance</span>
+                                <span class="badge badge-tag">Book-notes</span>
+                                <span class="badge badge-tag">Concept</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Card Content -->
+                        <div class="card-content">
+                            <div class="demo-front" id="cardFront">
+                                <div class="question-text">What are the 5 obstacles to financial success according to Rich Dad Poor Dad?</div>
+                            </div>
+                            <div class="demo-back" id="cardBack" style="display: none;">
+                                <div class="answer-section">
+                                    <div class="answer-text">1. Fear 2. Cynicism 3. Laziness 4. Bad Habits 5. Arrogance</div>
+                                    <div class="answer-notes">
+                                        <p>Remember: These psychological barriers often prevent people from taking financial risks and building wealth.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Show Answer Button -->
+                        <div class="show-answer-section" id="showAnswerSection">
+                            <button class="show-answer-btn" id="showAnswerBtn">
+                                <span class="btn-icon">👁️</span>
+                                Show Answer
+                            </button>
+                            <button class="skip-btn">
+                                <span class="btn-icon">⏭️</span>
+                                Skip for now (S)
+                            </button>
+                        </div>
+                        
+                        <!-- Rating Buttons -->
+                        <div class="demo-buttons" id="ratingButtons" style="display: none;">
+                            <button class="demo-button wrong">
+                                <span class="btn-icon">❌</span>
+                                Wrong (3)
+                            </button>
+                            <button class="demo-button almost">
+                                <span class="btn-icon">⚠️</span>
+                                Almost (2)
+                            </button>
+                            <button class="demo-button correct">
+                                <span class="btn-icon">✅</span>
+                                Correct (1)
+                            </button>
+                    </div>
+                    </div>
+                <p class="demo-instructions">
+                        <span id="demoInstructions">Click the card to see the answer, then rate your recall</span>
+                    </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="learning-stats">
+        <h2>Learning That Actually Works</h2>
+        <p class="stats-subtitle">Stop wasting time with ineffective study methods. See the difference intelligent spaced repetition makes.</p>
+        <div class="stats-grid">
+            <div class="stat-item">
+                <div class="stat-icon">🧠</div>
+                <div class="stat-number">85%</div>
+                <div class="stat-label">Better Retention</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-icon">⏱️</div>
+                <div class="stat-number">60%</div>
+                <div class="stat-label">Less Study Time</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-icon">📈</div>
+                <div class="stat-number">3x</div>
+                <div class="stat-label">Faster Mastery</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-icon">🎯</div>
+                <div class="stat-number">90%</div>
+                <div class="stat-label">Long-term Recall</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>Ready to Learn Smarter?</h2>
+            <p>Join thousands of learners who've already discovered the power of intelligent spaced repetition</p>
+            <a href="pricing.html" class="cta-button-large">Start Learning Today</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Spaced. Built for learners who demand better.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
