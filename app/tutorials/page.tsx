@@ -292,7 +292,7 @@ export default function Tutorials() {
                   <div>
                     <h3 className="text-xl font-semibold text-white mb-2">Why FSRS?</h3>
                     <p className="mb-3">
-                      FSRS is a state-of-the-art spaced repetition algorithm that uses machine learning to optimize review schedules. Unlike older algorithms like SM-2 (used by Anki), FSRS:
+                      FSRS is a state-of-the-art spaced repetition algorithm that uses machine learning to optimize review schedules. Unlike older traditional algorithms, FSRS:
                     </p>
                     <ul className="space-y-3 list-disc list-inside mb-4">
                       <li>

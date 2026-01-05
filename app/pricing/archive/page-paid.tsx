@@ -133,7 +133,7 @@ export default function Pricing() {
               <h4 className="text-lg font-semibold mb-3">Will this actually help me remember things better?</h4>
               <p className="text-white/70 leading-relaxed">
                 Absolutely. Spaced repetition is scientifically proven to be the most effective way to build long-term
-                memory. Spaced uses the FSRS algorithm, which is more accurate than traditional algorithms (like SM-2 used by Anki) and adapts to your unique learning patterns for optimal retention.
+                memory. Spaced uses the FSRS algorithm, which is more accurate than traditional algorithms and adapts to your unique learning patterns for optimal retention.
               </p>
             </div>
             <div className="bg-black/50 border border-white/10 rounded-xl p-8 hover:border-white/20 transition-all">

@@ -150,11 +150,11 @@ export default function Home() {
           <h2>Tired of Generic Learning Apps?</h2>
           <div className="comparison">
             <div className="pain-points">
-              <h3>The Problem with Quizlet & Anki</h3>
+              <h3>Common Problems with Learning Apps</h3>
               <ul>
                 <li>Overwhelming features</li>
                 <li>Too Expensive</li>
-                <li>Outdated algorithms (SM-2)</li>
+                <li>Outdated algorithms</li>
                 <li>Short Term Focus</li>
               </ul>
             </div>
