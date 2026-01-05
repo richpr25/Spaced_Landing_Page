@@ -9,8 +9,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Spaced - Master Everything with Intelligent Repetition",
-  description: "The learning app built for your brain. Master anything with scientifically-proven spaced repetition.",
+  title: "Spaced - Master Everything with the FSRS Algorithm",
+  description: "The learning app built for your brain. Master anything with FSRS (Free Spaced Repetition Scheduler) - the most advanced spaced repetition algorithm available.",
     generator: 'v0.app'
 }
 

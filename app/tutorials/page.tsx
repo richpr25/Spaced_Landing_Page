@@ -10,7 +10,7 @@ export default function Tutorials() {
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">How to Use Spaced</h1>
           <p className="text-xl text-white/70 leading-relaxed max-w-3xl mx-auto">
-            Master the art of spaced repetition and unlock your brain&apos;s full potential. Follow these guides to get
+            Master the art of spaced repetition with the FSRS algorithm and unlock your brain&apos;s full potential. Follow these guides to get
             the most out of your learning journey.
           </p>
         </div>
@@ -113,10 +113,10 @@ export default function Tutorials() {
                   </span>
                 </div>
                 <div className="p-5">
-                  <h4 className="text-lg font-semibold mb-2">Understanding the Algorithm</h4>
+                  <h4 className="text-lg font-semibold mb-2">Understanding FSRS</h4>
                   <p className="text-white/60 text-sm leading-relaxed">
-                    Deep dive into how spaced repetition works. Learn about the forgetting curve, optimal intervals, and
-                    how the algorithm adapts to your learning patterns.
+                    Deep dive into the FSRS (Free Spaced Repetition Scheduler) algorithm. Learn about the forgetting curve, optimal intervals, and
+                    how FSRS uses machine learning to adapt to your unique learning patterns for superior retention.
                   </p>
                 </div>
               </div>
@@ -282,30 +282,47 @@ export default function Tutorials() {
             <div className="flex items-start gap-6">
               <div className="text-5xl">🧠</div>
               <div>
-                <h2 className="text-3xl font-bold mb-4">Understanding Spaced Repetition</h2>
+                <h2 className="text-3xl font-bold mb-4">Understanding FSRS Algorithm</h2>
                 <div className="space-y-6 text-white/80 leading-relaxed">
                   <p>
                     Spaced repetition is a learning technique that shows you information right before you&apos;re about
                     to forget it. This strengthens your memory and moves knowledge from short-term to long-term storage.
+                    Spaced uses the FSRS (Free Spaced Repetition Scheduler) algorithm, which is more accurate and adaptive than traditional algorithms.
                   </p>
+                  <div>
+                    <h3 className="text-xl font-semibold text-white mb-2">Why FSRS?</h3>
+                    <p className="mb-3">
+                      FSRS is a state-of-the-art spaced repetition algorithm that uses machine learning to optimize review schedules. Unlike older algorithms like SM-2 (used by Anki), FSRS:
+                    </p>
+                    <ul className="space-y-3 list-disc list-inside mb-4">
+                      <li>
+                        <strong>Learns from your performance:</strong> The algorithm analyzes your recall patterns and adjusts intervals accordingly
+                      </li>
+                      <li>
+                        <strong>More accurate predictions:</strong> Better at predicting when you&apos;ll forget, reducing unnecessary reviews
+                      </li>
+                      <li>
+                        <strong>Personalized optimization:</strong> Adapts to your unique learning speed and retention patterns
+                      </li>
+                      <li>
+                        <strong>Open-source and research-backed:</strong> Based on extensive research and continuously improved by the community
+                      </li>
+                    </ul>
+                  </div>
                   <div>
                     <h3 className="text-xl font-semibold text-white mb-2">How It Works</h3>
                     <ul className="space-y-3 list-disc list-inside">
                       <li>
-                        <strong>First Review:</strong> You see a new card and try to remember it. If you get it right,
-                        you&apos;ll see it again in 1 day.
+                        <strong>First Review:</strong> You see a new card and try to remember it. FSRS analyzes your response and schedules the next review based on your performance.
                       </li>
                       <li>
-                        <strong>Building Memory:</strong> Each time you recall correctly, the interval increases - 3
-                        days, then 7 days, then 2 weeks, and so on.
+                        <strong>Building Memory:</strong> Each time you recall correctly, FSRS calculates the optimal next interval - which may be 3 days, 7 days, 2 weeks, or longer, depending on your learning patterns.
                       </li>
                       <li>
-                        <strong>Forgetting Curve:</strong> If you forget, the card resets and you&apos;ll see it more
-                        frequently until it sticks.
+                        <strong>Adaptive Scheduling:</strong> If you forget, FSRS adjusts the interval and schedules more frequent reviews until the information sticks.
                       </li>
                       <li>
-                        <strong>Long-term Retention:</strong> Eventually, cards you&apos;ve mastered only need review
-                        every few months to stay fresh.
+                        <strong>Long-term Retention:</strong> As you master cards, FSRS extends intervals intelligently. Well-known cards may only need review every few months to stay fresh.
                       </li>
                     </ul>
                   </div>
@@ -352,8 +369,8 @@ export default function Tutorials() {
                   <div>
                     <h3 className="text-xl font-semibold text-white mb-2">Don&apos;t Skip Reviews</h3>
                     <p>
-                      The algorithm works best when you follow the schedule. Skipping reviews breaks the spacing effect
-                      and weakens your memory. Trust the system - it knows when you need to review.
+                      The FSRS algorithm works best when you follow the schedule. Skipping reviews breaks the spacing effect
+                      and weakens your memory. Trust FSRS - it uses machine learning to determine the optimal time for each review based on your performance.
                     </p>
                   </div>
                 </div>
@@ -443,7 +460,7 @@ export default function Tutorials() {
           <h2 className="text-4xl font-bold mb-6">Ready to Start Learning?</h2>
           <p className="text-xl text-white/70 leading-relaxed mb-8 max-w-3xl mx-auto">
             Now that you know how to use Spaced effectively, it&apos;s time to put it into practice. Get started today
-            and experience the power of intelligent spaced repetition.
+            and experience the power of the FSRS algorithm.
           </p>
           <Link
             href="/pricing"

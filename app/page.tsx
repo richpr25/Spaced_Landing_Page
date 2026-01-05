@@ -130,7 +130,7 @@ export default function Home() {
         <div className="hero-content">
           <h1>Spaced</h1>
           <p className="tagline">
-            Master everything with intelligent repetition. The learning app built for your brain.
+            Master everything with the FSRS algorithm. The learning app built for your brain.
           </p>
           <a href="#features" className="cta-button">
             Discover How It Works
@@ -154,7 +154,7 @@ export default function Home() {
               <ul>
                 <li>Overwhelming features</li>
                 <li>Too Expensive</li>
-                <li>Generic spaced repetition</li>
+                <li>Outdated algorithms (SM-2)</li>
                 <li>Short Term Focus</li>
               </ul>
             </div>
@@ -163,7 +163,7 @@ export default function Home() {
               <ul>
                 <li>Clean, focused interface</li>
                 <li>Affordable</li>
-                <li>Content-aware algorithms</li>
+                <li>FSRS algorithm - state-of-the-art</li>
                 <li>Long Term Recall</li>
               </ul>
             </div>
@@ -176,19 +176,17 @@ export default function Home() {
         <div className="features-grid">
           <div className="feature-card">
             <div className="feature-icon">🧠</div>
-            <h3>Intelligent Spaced Repetition</h3>
+            <h3>FSRS Algorithm</h3>
             <p>
-              Different content types get different review schedules. Vocabulary, artworks, theorems, and capitals each
-              follow scientifically-optimized intervals for maximum retention.
+              Powered by the Free Spaced Repetition Scheduler (FSRS) - a state-of-the-art algorithm that uses machine learning to optimize your review schedule. More accurate than traditional algorithms, FSRS adapts to your unique learning patterns for maximum retention.
             </p>
           </div>
 
           <div className="feature-card">
             <div className="feature-icon">🎯</div>
-            <h3>Content-Aware Learning</h3>
+            <h3>Personalized Learning</h3>
             <p>
-              Whether you&apos;re memorizing art pieces, financial terms, or complex theorems, Spaced adapts its
-              approach to match how your brain best processes each type of information.
+              The FSRS algorithm learns from your performance and continuously optimizes review intervals. Whether you&apos;re memorizing art pieces, financial terms, or complex theorems, FSRS adapts to match how your brain best processes information.
             </p>
           </div>
 
@@ -304,7 +302,7 @@ export default function Home() {
       <section className="learning-stats" ref={statsRef}>
         <h2>Learning That Actually Works</h2>
         <p className="stats-subtitle">
-          Stop wasting time with ineffective study methods. See the difference intelligent spaced repetition makes.
+          Stop wasting time with ineffective study methods. See the difference the FSRS algorithm makes.
         </p>
         <div className="stats-grid">
           <div className="stat-item">
@@ -337,12 +335,12 @@ export default function Home() {
               <p>
                 Hi, I&apos;m the creator of Spaced. As a student frustrated with overcomplicated and expensive learning
                 apps, I built Spaced to be the tool I wished existed. No unnecessary features, no subscriptions that
-                break the bank—just intelligent spaced repetition that actually helps you remember what you learn.
+                break the bank—just the FSRS algorithm, the most advanced spaced repetition system available, that actually helps you remember what you learn.
               </p>
               <p>
-                I believe learning should be accessible, effective, and distraction-free. That&apos;s why Spaced focuses
-                on what matters: helping you retain information for the long term using proven cognitive science
-                principles.
+                I believe learning should be accessible, effective, and distraction-free. That&apos;s why Spaced uses
+                FSRS (Free Spaced Repetition Scheduler), a state-of-the-art algorithm based on machine learning that
+                outperforms traditional methods. It adapts to your learning patterns and helps you retain information for the long term using proven cognitive science principles.
               </p>
             </div>
           </div>
@@ -352,7 +350,7 @@ export default function Home() {
       <section className="cta-section">
         <div className="cta-content">
           <h2>Ready to Learn Smarter?</h2>
-          <p>Join thousands of learners who&apos;ve already discovered the power of intelligent spaced repetition</p>
+          <p>Join thousands of learners who&apos;ve already discovered the power of the FSRS algorithm</p>
           <Link href="/pricing" className="cta-button-large">
             Start Learning Today
           </Link>

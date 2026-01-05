@@ -17,8 +17,7 @@ export default function Pricing() {
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">Start Your Learning Journey Today</h1>
           <p className="text-xl text-white/70 leading-relaxed max-w-3xl mx-auto">
-            Stop forgetting what you study. Start your free trial and experience 3x faster mastery with content-aware
-            algorithms.
+            Stop forgetting what you study. Start your free trial and experience 3x faster mastery with the FSRS algorithm - the most advanced spaced repetition system available.
           </p>
         </div>
       </section>
@@ -30,7 +29,7 @@ export default function Pricing() {
               <div className="text-6xl mb-4">🧠</div>
               <h2 className="text-3xl font-bold mb-3">Spaced Learning App</h2>
               <p className="text-lg text-white/70 leading-relaxed">
-                The intelligent learning companion. Master anything with scientifically-proven spaced repetition.
+                The intelligent learning companion. Master anything with FSRS (Free Spaced Repetition Scheduler) - the most advanced spaced repetition algorithm available.
               </p>
             </div>
 
@@ -100,7 +99,7 @@ export default function Pricing() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <span className="bg-white/5 border border-white/10 px-6 py-3 rounded-full text-white/90">
-              🎯 Intelligent Repetition
+              🎯 FSRS Algorithm
             </span>
             <span className="bg-white/5 border border-white/10 px-6 py-3 rounded-full text-white/90">
               🔒 Your Data, Your Control
@@ -134,8 +133,7 @@ export default function Pricing() {
               <h4 className="text-lg font-semibold mb-3">Will this actually help me remember things better?</h4>
               <p className="text-white/70 leading-relaxed">
                 Absolutely. Spaced repetition is scientifically proven to be the most effective way to build long-term
-                memory. Our content-aware algorithms make it even more powerful by adapting to different types of
-                information.
+                memory. Spaced uses the FSRS algorithm, which is more accurate than traditional algorithms (like SM-2 used by Anki) and adapts to your unique learning patterns for optimal retention.
               </p>
             </div>
             <div className="bg-black/50 border border-white/10 rounded-xl p-8 hover:border-white/20 transition-all">
